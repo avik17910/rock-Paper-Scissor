@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .top {
+        width: 100%;
+        height: 180px;
+        background-color: rgb(171, 226, 120);
+    }
+
+    .top .head {
+        font-size: 100px;
+        color: purple;
+    }
+
+    .game img {
+        height: 300px;
+        width: 300px;
+    }
+</style>
+
+<body>
+    <div class="top">
+        <center>
+            <div class="head"><b>Rock Paper Scissors</b>
+            </div>
+        </center>
+    </div>
+    <div class="game">
+        <button style="margin-right: 250px;margin-left: 150px;margin-top: 50px;"><img src="./rock.png"
+                alt="Rock"></button>
+        <button style="margin-right: 250px;"><img src="./paper.png" alt="paper"></button>
+        <button><img src="./scissors.png" alt="scissors"></button><br>
+        <div class="but" style="margin-top: 15px;">
+            <button onclick="rock()" style="margin-right:500px;margin-left: 270px;width: 60px;height: 60px;"><b
+                    style="font-size: 15px;">Rock</b></button>
+            <button onclick="paper()" style="margin-right:500px;width: 60px;height:60px;"><b
+                    style="font-size: 15px;">Paper</b></button>
+            <button onclick="scissors()" style="margin-left:30px;width:75px;height: 60px;"><b
+                    style="font-size: 15px;">Scissors</b></button>
+        </div>
+    </div>
+</body>
+
+</html>
