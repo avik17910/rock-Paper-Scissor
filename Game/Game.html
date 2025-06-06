@@ -45,6 +45,77 @@
                     style="font-size: 15px;">Scissors</b></button>
         </div>
     </div>
+     <script>
+ function rock()
+{
+ document.writeln("You chose Rock")    
+num=parseInt(prompt("Enter any number (0 or 1 or 2)"))
+
+ if (num == 0){
+    document.writeln("I chose Rock")
+document.writeln("Draw")
+}
+ else if (num == 2 )
+{
+    document.writeln("I chose scissors ")
+    Document.writeln("You win")
+} 
+else if (num == 1){
+    document.writeln("I chose Paper")
+document.writeln("You Lose")
+} 
+else{
+        
+    document.writeln("Input is invalid")
+}
+}
+function paper()
+{
+ document.writeln("You chose paper")    
+num=parseInt(prompt("Enter any number (0 or 1 or 2)"))
+
+ if (num == 0){
+    document.writeln("I chose Rock")
+document.writeln("you win")
+}
+ else if (num == 2 )
+{
+    document.writeln("I chose scissors ")
+    Document.writeln("You Lose")
+} 
+else if (num == 1){
+    document.writeln("I chose Paper")
+document.writeln("Draw")
+} 
+else{
+        
+    document.writeln("Input is invalid")
+}
+}
+function scissors()
+{
+ document.writeln("You chose scissors")    
+num=parseInt(prompt("Enter any number (0 or 1 or 2)"))
+
+ if (num == 0){
+    document.writeln("I chose Rock")
+document.writeln("you lose")
+}
+ else if (num == 2 )
+{
+    document.writeln("I chose scissors ")
+    Document.writeln("Draw")
+} 
+else if (num == 1){
+    document.writeln("I chose Paper")
+document.writeln("You Win")
+} 
+else{
+        
+    document.writeln("Input is invalid")
+}
+}
+   </script>
 </body>
 
 </html>
